@@ -34,6 +34,6 @@ app.get('/products', function (req, res) {
   res.sendFile(__dirname + '/products.html');
 });
 
-app.listen(8000, function () {
-  console.log('Listening to Port 8000');
+app.listen(process.env.PORT || 5000, function () {
+  console.log('Listening...');
 });

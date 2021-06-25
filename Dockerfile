@@ -9,5 +9,3 @@ RUN yarn install --silent
 COPY . ./
 
 CMD ["yarn", "start"]
-
-EXPOSE 8000
